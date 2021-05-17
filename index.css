@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo img{
+    width: 15%px;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    background-color: black; 
+    height: 200px; 
+    
+   
+}
+.navbar__item{
+    display: flex;
+    padding:70px 0;
+
+   
+}
+.navbar__item li{
+    list-style: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding:0 50px;
+   
+}
+.navbar__list:hover{
+    opacity: 0.1;
+    color: chartreuse;
+
+}
+.slider img{
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider{
+    margin-top: 40px;
+}
+
+.paragrap{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    margin: 35px 0;
+    text-align: justify;
+
+}
+.paragrap-red{
+    color: red;
+    font-weight: bold;
+}
+
+
+.intro__item img{
+    width: 100%;
+    display: block;
+}
+.items__left,.items__right{
+    float: left;
+    width: 50%;
+}
+.intro__item {
+    float: left;
+    padding: 30px;
+  
+
+
+}
+.items__left{
+    padding-right: 30px;
+}
+.items__right{
+    padding-left:30px ;
+}
+.intro__item-one{
+    width: 50%;
+}
+.intro__item-two{
+    width: 100%;
+}
+
+ /* phần button */
+ .buttonn{
+     margin-top: 30px;
+    
+ }
+ .title{
+     text-align: center;
+     font-size: 100px;
+     letter-spacing: 2px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 50px 0;
+     font-weight: bold;
+ }
+
+
+ .item img{
+   width: 100%;
+  display: block;
+ }
+
+ .item__list{
+     width: 25%;
+     float: left;
+ }
+
+ .item__list--left{
+     padding-right: 40px;
+     padding-left: 30px;
+
+ }
+
+ .item__list--margin-01{
+     padding-left: 40px;
+     padding-right: 40px;
+    
+ }
+ .item__list--margin-02{
+     padding-left: 40px;
+     padding-right:40px ;
+ }
+ .item__list--right{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+ .list__h{
+     font-size: 70px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+ }
+ .list__p{
+     font-size: 50px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: justify;
+
+ }
+ .list__btn{
+     margin-top: 30px;
+     background-color: rgb(218, 35, 35);
+     font-size: 70px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     border-radius: 10px;
+     border: 2px solid rgb(236, 14, 14);
+     padding: 15px;
+
+ }
+ .list__btn:active{
+     cursor: pointer;
+     
+ }
+ .clear{
+     clear: both;
+ }
+ /* phần sale off */
+ 
+ .quangcao{
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 30px;
+    
+
+
+ }
+ .quangcao img{
+     width: 100%;
+     display: block;
+
+ }
+ .quangcao{
+     position: relative;
+     height: 65vh;
+     
+
+     
+ }
+ .sale{
+    
+     width: 22%;
+     height: 70%;
+     background-color: rgba(245, 19, 19, 0.6);
+     border-radius: 50%;
+     position: absolute;
+   
+     left: 15%;
+     transform: translateX(-15%);
+     top: 250px
+     
+
+
+ }
+ .sale-of,.sale-pa1,.sale-pa2{
+     position: relative;
+     top: 200px;
+     padding: 50px;
+
+     
+     font-weight: 10px;
+   
+     
+ }
+ .sale-of{
+     font-size: 100px;
+     color: white;
+     text-align: center;
+     font-weight: bold;
+     
+     
+
+ }
+ .sale-pa1{
+     font-size: 300px;
+     color: white;
+     text-align: center;
+     
+     
+    
+
+ }
+ .sale-pa2{
+    font-size: 80px;
+    color: white;
+    text-align: center;
+
+ }
+ /* icons */
+ .icons img{
+    display: block; 
+    width: 20%;
+
+    margin-left: 450px;
+ 
+ }
+ .icons{
+     text-align: center;
+ }
+ 
+ 
+
+ 
+ .icons__one{
+     float: left;
+     width: 20%;
+     
+     
+
+ }
+.icons__two{
+   
+    float: left;
+    width:20%;
+   
+
+}
+.icons__three{
+    float: left;
+    width: 20%;
+}
+
+.icons-h{
+    font-size: 80px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons-span{
+    font-size: 60px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icons__one,.icons__two,.icons__three{
+    margin-left: 500px;
+    margin-top: 80px;
+   
+}
+/* footer */
+.footer{
+    background-color: black;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 110px;
+    margin-top: 80px;
+
+
+}
+.footer>h2{
+    color: white;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.address{
+    font-size: 50px !important;
+}
+.footer>p{
+  color: white;  
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+ 
+  
+
+ 
